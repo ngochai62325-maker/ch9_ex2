@@ -1,0 +1,59 @@
+/* Đặt body có nền vàng nhạt và căn giữa nội dung */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9db; /* vàng nhạt */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* Container để giữ nội dung gọn gàng ở giữa */
+.container {
+    background: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Tiêu đề */
+h1 {
+    font-size: 140%;
+    color: teal;
+    margin-bottom: .5em;
+    text-align: center;
+}
+
+br {
+    clear: both;
+}
+
+#quantity {
+    width: 2em;
+}
+
+/* Bảng */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50em;
+    margin: 1em auto; /* căn giữa bảng */
+    background-color: #fff; /* nền trắng để nổi bật */
+}
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: .5em;
+}
+.right {
+    text-align: right;
+}
+
+/* Căn giữa các nút */
+form {
+    text-align: center;
+    margin: 0.5em 0;
+}
